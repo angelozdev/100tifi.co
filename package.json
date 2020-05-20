@@ -17,6 +17,8 @@
   "devDependencies": {
     "@babel/core": "^7.9.6",
     "@babel/preset-typescript": "^7.9.0",
+    "@typescript-eslint/eslint-plugin": "^2.34.0",
+    "@typescript-eslint/parser": "^2.34.0",
     "babel-loader": "^8.1.0",
     "html-webpack-plugin": "^4.3.0",
     "typescript": "^3.9.2",
