@@ -1,10 +1,3 @@
-console.clear()
+import { router } from "./routes";
 
-const me = {
-   user: 'angelo',
-   surname: 'zambrano'
-}
-
-const { user, surname } = me;
-
-console.log(`Hola ${user} ${surname}`)
+window.addEventListener('load', router)
