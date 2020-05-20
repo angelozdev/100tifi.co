@@ -1,7 +1,7 @@
 const Header = (): string => {
    const view: string = `
-      <div>
-         <div class="header__log">
+      <div class="container">
+         <div class="header__logo">
             <h1 class="header__title">
                <a href="/" class="header__icon">100tifi.co</a>
             </h1>

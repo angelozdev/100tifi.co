@@ -4,6 +4,7 @@ import Character from '../pages/Character';
 import NotFound from "../pages/NotFound";
 import getHash from '../utils/getHash'
 import resolveRoute from "../utils/resolveRoute";
+import '../styles/index.css'
 
 const routes = {
    '/': Home,
@@ -21,6 +22,6 @@ export const router = async () => {
    const route = resolveRoute(hash);
    const render = await routes[route] ? routes[route] : NotFound;
 
-   $content.innerHTML = render();
+   $content.innerHTML = await render();
 }
 

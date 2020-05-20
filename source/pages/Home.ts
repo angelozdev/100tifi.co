@@ -1,12 +1,18 @@
-const Home = (): string => {
+import getData from '../utils/getData'
+
+const Home = async () => {
+   const characters = await getData();
+
    const view: string = `
       <div class="characters">
-         <article class="character-item">
-            <a href="#/1">
-               <img src="image" alt="name">
-               <h2>Name</h2>
-            </a>
-         </article>
+         ${characters.results.map(ch =>
+      `<article class="character-item">
+         <a href="#/${ch.id}"/>
+         <img src="${ch.image}" alt="${ch.name}">
+            <h2>${ch.name}</h2>
+         </a>
+         </article>`
+   ).join('')}
       </div>
    `;
 
