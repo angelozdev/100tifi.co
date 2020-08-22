@@ -96,7 +96,7 @@ a {
 
 .character-inner {
    width: 100%;
-   height: calc(100vh - 60px);
+   height: calc(100vh - 60px - 48px);
    max-width: 1024px;
    margin: 2.4rem auto;
    padding: 0 1.6rem;
