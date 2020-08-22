@@ -1,44 +1,45 @@
 @import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap);
-:root{
+:root {
    --colorDark: #211437;
-   --colorPrimart: #30235F;
-   --colorLight: #432E78;
+   --colorPrimart: #30235f;
+   --colorLight: #432e78;
 }
 
-
-*{
+* {
    box-sizing: border-box;
 }
 
-html{
+html {
    font-size: 62.5%;
 }
 
-body{
+body {
    font-size: 1.6rem;
    width: 100%;
    margin: 0;
    padding: 0;
    font-family: 'Poppins', sans-serif;
 }
-h1, h2, h3, h4{
+h1,
+h2,
+h3,
+h4 {
    margin: 0;
 }
 
-a{
+a {
    text-decoration: none;
    margin: 0;
    padding: 0;
 }
 
-
-.header{
+.header {
    width: 100%;
    height: 60px;
    background-color: var(--colorDark);
 }
 
-.container{
+.container {
    width: 100%;
    max-width: 1024px;
    height: 60px;
@@ -48,13 +49,12 @@ a{
    justify-content: space-between;
 }
 
-.header a{
+.header a {
    color: white;
    text-decoration: none;
    text-transform: uppercase;
    line-height: 60px;
 }
-
 
 .characters {
    width: 100%;
@@ -66,7 +66,7 @@ a{
    padding: 0 1.2rem;
 }
 
-.character-item{
+.character-item {
    width: 300px;
    height: auto;
    border: 1px solid rgba(196, 196, 196, 0.274);
@@ -76,26 +76,26 @@ a{
    overflow: hidden;
 }
 
-.character-item h2{
+.character-item h2 {
    padding: 1.6rem;
    color: var(--colorDark);
    text-align: center;
 }
-.character-item a{
+.character-item a {
    display: inline-block;
    width: 100%;
    height: 100%;
 }
 
-.character-item img{
+.character-item img {
    width: 100%;
    height: 300px;
    object-fit: cover;
 }
 
-.character-inner{
+.character-inner {
    width: 100%;
-   height: calc(100vh - 60px);
+   height: calc(100vh - 60px - 48px);
    max-width: 1024px;
    margin: 2.4rem auto;
    padding: 0 1.6rem;
@@ -107,13 +107,14 @@ a{
    width: 100%;
 }
 
-.character-inner img{
+.character-inner img {
    width: 100%;
    max-width: 300px;
    margin: 0 auto;
    object-fit: cover;
 }
 
-.character-inner span{
+.character-inner span {
    font-weight: 300;
 }
+
