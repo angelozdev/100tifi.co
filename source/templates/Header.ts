@@ -13,7 +13,6 @@ const Header = (): string => {
    `;
 
    return view;
-}
-
+};
 
 export default Header;

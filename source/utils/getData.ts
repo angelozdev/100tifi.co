@@ -8,8 +8,8 @@ const getData = async (id?: string | number) => {
       const data = await response.json();
       return data;
    } catch (error) {
-      console.error(url, error)
+      console.error(url, error);
    }
-}
+};
 
 export default getData;

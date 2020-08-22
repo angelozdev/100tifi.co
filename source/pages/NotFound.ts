@@ -3,9 +3,9 @@ const NotFound = (): string => {
       <div className="not-found">
          <h2>Error 404 =(</h2>
       </div>
-   `
+   `;
 
    return view;
-}
+};
 
 export default NotFound;
